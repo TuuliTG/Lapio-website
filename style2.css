@@ -1,22 +1,45 @@
-.first-box-container {
+#banneri {
+    width: 800px;
+    height: 250 px;
+    position: relative;
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+}
+#div1 {
+    position: absolute;
+    height: 150px;
     width: 200px;
-    height: 100px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:green;
     background-color: red;
-    margin-right: 20px;
-    display: inline-block;
-    
+    left: 10px;
+    top:0px;
 }
-.second-box-container {
+#div2 {
+    position: absolute;
+    height: 150px;
     width: 200px;
-    height: 100px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:red;
     background-color: yellow;
-    margin-right: 20px;
-    display: inline-block
+    left: 300px;
+    top:0px;
 }
-
-.third-box-container {
+#div3 {
+    position: absolute;
+    height: 150px;
     width: 200px;
-    height: 100px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:yellow;
     background-color: green;
-    display: inline-block
+    left: 600px;
+    top:0px;
+}
+#banneri h3 {
+    position: absolute;
+    top: 25%;
 }
